@@ -10,6 +10,10 @@ const Gate= Loadable({
   loader: () => import('./views/Gate'),
   loading: Loading,
 })
+const Shopping= Loadable({
+  loader: () => import('./views/Shopping'),
+  loading: Loading,
+})
 const Buildings= Loadable({
   loader: () => import('./views/Building'),
   loading: Loading,
@@ -229,7 +233,7 @@ const routes = [
   { path: '/dashboard', name: 'Dashboard', component: Dashboard },
  
   { path: '/gate/points', name: '门禁积分设置', component: Gate },
-  
+  { path: '/shopping/points', name: '购物积分设置', component: Shopping },
   { path: '/theme', exact: true, name: 'Theme', component: Colors },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },

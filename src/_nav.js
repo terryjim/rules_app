@@ -26,6 +26,11 @@ export default {
           name: '　门禁积分',
           url: '/gate/points',
           icon: ["icon-puzzle","right-padding"],
+        },
+        {
+          name: '　购物积分',
+          url: '/shopping/points',
+          icon: ["icon-puzzle","right-padding"],
         }]
     },
     /*  {
